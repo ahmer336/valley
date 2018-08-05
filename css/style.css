@@ -42,42 +42,7 @@
 
 /* @import must be at top of file, otherwise CSS will not work */
 
-@import url("//web.archive.org/web/20170929151451cs_/http://hello.myfonts.net/count/3375c5");
-@font-face {
-  font-family: 'Gilroy-Regular';
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_0_0.eot');
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_0_0.eot#iefix') format('embedded-opentype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_0_0.woff2') format('woff2'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_0_0.woff') format('woff'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_0_0.ttf') format('truetype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_0_0.svg#wf') format('svg');
-}
 
-@font-face {
-  font-family: 'Gilroy-RegularItalic';
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_1_0.eot');
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_1_0.eot#iefix') format('embedded-opentype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_1_0.woff2') format('woff2'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_1_0.woff') format('woff'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_1_0.ttf') format('truetype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_1_0.svg#wf') format('svg');
-}
-
-@font-face {
-  font-family: 'Gilroy-MediumItalic';
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_2_0.eot');
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_2_0.eot#iefix') format('embedded-opentype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_2_0.woff2') format('woff2'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_2_0.woff') format('woff'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_2_0.ttf') format('truetype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_2_0.svg#wf') format('svg');
-}
-
-@font-face {
-  font-family: 'Gilroy-Medium';
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_3_0.eot');
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_3_0.eot#iefix') format('embedded-opentype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_3_0.woff2') format('woff2'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_3_0.woff') format('woff'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_3_0.ttf') format('truetype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_3_0.svg#wf') format('svg');
-}
-
-@font-face {
-  font-family: 'Gilroy-BoldItalic';
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_4_0.eot');
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_4_0.eot#iefix') format('embedded-opentype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_4_0.woff2') format('woff2'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_4_0.woff') format('woff'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_4_0.ttf') format('truetype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_4_0.svg#wf') format('svg');
-}
-
-@font-face {
-  font-family: 'Gilroy-Bold';
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_5_0.eot');
-  src: url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_5_0.eot#iefix') format('embedded-opentype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_5_0.woff2') format('woff2'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_5_0.woff') format('woff'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_5_0.ttf') format('truetype'), url('/web/20170929151451im_/http://www.mindvalley.com/css/webfonts/3375C5_5_0.svg#wf') format('svg');
-}
 
 d @CHARSET "ISO-8859-1";
 
@@ -273,6 +238,8 @@ body {
   left: 0;
   position: absolute;
 }
+
+
 
 #vishen-section {
 }
@@ -595,7 +562,7 @@ h2 {
   font-family: 'Gilroy-Bold', sans-serif;
   font-weight: 800;
   left: 55px;
-  font-size: 90px;
+  font-size: 70px;
   color: #fff;
   height: 94px;
   z-index: 101;
@@ -1725,33 +1692,52 @@ ul.social {
 
 
 .wrapper {
+  
+  height: 80%;
+  width: 80%;
   display: grid;
-  grid-gap: 20px;
-    content: "";
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35));
-  width: 100%;
-  height: 100%;
-  display: block;
-  top: 0;
-  left: 0;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+
+  top: 10%;
+  left: 10%;
   position: absolute;
 }
 
 
-/* Boxes */
-
-.boxes {
-  display: grid;
-  grid-gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+  background: #ddd;
 }
 
 
-/* Boxes */
-.box {
-  background: var(--primary);
-  text-align: center;
-  padding: 1.5rem 2rem;
-  bax-shadow: var(--shadow);
+
+.box1{
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.box2{
+  grid-column: 1/2;
+  grid-row: 4/7;
+
+}
+
+.box3{
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.box4{
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+
+.box5{
+  grid-column: 2/3;
+  grid-row: 5/7;
 }
 

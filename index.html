@@ -6,19 +6,22 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <!-- /Added by HTTrack -->
 
-<head>    
-    
+<head>
+
 
     <!-- End Wayback Rewrite JS Include -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Welcome to Mindvalley. We incubate and grow businesses that innovate on transformational education, dedicated to unleashing humanity's greatest potential." />
+    <meta name="description" content="Welcome to Mindvalley. We incubate and grow businesses that innovate on transformational education, dedicated to unleashing humanity's greatest potential."
+    />
     <meta property="og:title" content="Mindvalley: Be Extraordinary" />
     <meta property="og:type" content="website" />
     <meta name="author" content="Denys Loveiko">
     <meta property="og:site_name" content="Mindvalley" />
-    <meta property="og:image" content="https://web.archive.org/web/20171010070622im_/http://www.mindvalley.com/assets/images/facebook.jpg" />
-    <meta property="og:description" content="Welcome to Mindvalley. We incubate and grow businesses that innovate on transformational education, dedicated to unleashing humanity's greatest potential." />
+    <meta property="og:image" content="https://web.archive.org/web/20171010070622im_/http://www.mindvalley.com/assets/images/facebook.jpg"
+    />
+    <meta property="og:description" content="Welcome to Mindvalley. We incubate and grow businesses that innovate on transformational education, dedicated to unleashing humanity's greatest potential."
+    />
     <meta property="og:url" content="https://web.archive.org/web/20171010070622/http://www.mindvalley.com/" />
     <meta property="fb:app_id" content="260105907385613" />
 
@@ -57,7 +60,7 @@
     <script type="text/javascript" src="js/page.min.js"></script>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
 
             var intro_overlay = $('.overlay'),
                 explore_block = $(".explore-block"),
@@ -91,21 +94,21 @@
              * Preloader intialization
              */
 
-            setTimeout(function() {
+            setTimeout(function () {
                 preload.addClass('active-preload');
                 preload.delay(300).fadeOut(300);
             }, 1400);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 intro_overlay.addClass('overlay-active');
             }, 1650);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 blackout.fadeOut(900);
                 explore_arrow.addClass('arrow-explore-active');
             }, 1800);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 title_line.addClass('active-line');
                 title_txt_cta.addClass('active-cta');
                 desc_text.addClass('decsription-short-text-active');
@@ -117,8 +120,8 @@
              * Explore button intialization
              */
 
-            $(function() {
-                var Accordion = function(el, multiple) {
+            $(function () {
+                var Accordion = function (el, multiple) {
                     this.el = el || {};
                     this.multiple = multiple || false;
 
@@ -131,7 +134,7 @@
                     }, this.dropdown)
                 }
 
-                Accordion.prototype.dropdown = function(e) {
+                Accordion.prototype.dropdown = function (e) {
                     var $el = e.data.el;
                     $this = $(this),
                         $next = $this.next();
@@ -149,28 +152,28 @@
 
             /* Burger Menu Icon */
 
-            burger_icon.click(function() {
+            burger_icon.click(function () {
                 $(this).toggleClass('open');
                 accordion.toggleClass('accordion-active');
 
             });
 
-            menu_list.click(function() {
+            menu_list.click(function () {
                 burger_icon.toggleClass('open');
-                setTimeout(function() {
+                setTimeout(function () {
                     accordion.toggleClass('accordion-active');
                 }, 1000);
             });
 
             /* Explore block */
 
-            explore_block.mouseenter(function() {
+            explore_block.mouseenter(function () {
                 explore_arrow.addClass('arrow-explore-hover');
                 title_cta.addClass('CoverTitles-cta-hover');
                 title_line.addClass('hover-line');
             });
 
-            explore_block.mouseleave(function() {
+            explore_block.mouseleave(function () {
                 explore_arrow.removeClass('arrow-explore-hover');
                 title_cta.removeClass('CoverTitles-cta-hover');
                 title_line.removeClass('hover-line');
@@ -178,20 +181,20 @@
 
             /* Prev Next buttons */
 
-            go_next.click(function() {
+            go_next.click(function () {
                 $.fn.fullpage.moveSectionDown();
             });
 
-            go_prev.click(function() {
+            go_prev.click(function () {
                 $.fn.fullpage.moveSectionUp();
             });
 
             /* Transition */
 
-            $('a.arrow-explore').find('a').click(function(e) {
+            $('a.arrow-explore').find('a').click(function (e) {
                 redirect = this.getAttribute('href');
                 e.preventDefault();
-                $('body').fadeOut(600, function() {
+                $('body').fadeOut(600, function () {
                     document.location.href = redirect
                 });
             });
@@ -302,24 +305,24 @@
 
             $('#core').fullpage({
                 sectionsColor: ['#333', '#333', '#333', '#333', '#333'],
-                anchors: ['about', 'culture', 'vishen', 'book', 'team'],
+                anchors: ['about', 'automation', 'services', 'book', 'test'],
                 scrollingSpeed: 700,
                 menu: '.submenu',
 
-                afterRender: function() {
+                afterRender: function () {
                     video.get(0).play();
                     go_next.addClass('opacity-zero');
                     go_prev.addClass('opacity-zero');
                 },
 
-                afterLoad: function(anchorLink, index) {
+                afterLoad: function (anchorLink, index) {
                     desc_text.addClass('decsription-short-text-active');
                     explore_block.css({
                         "transform": "translate3d(0px, 0px, 0px)",
                         "opacity": "1"
                     });
 
-                    setTimeout(function() {
+                    setTimeout(function () {
                         social.css({
                             "transform": "translate3d(0px, 0px, 0px)",
                             "opacity": "1"
@@ -338,11 +341,11 @@
                         go_prev.removeClass('opacity-zero');
                     }
 
-                    if (index == 2) {}
+                    if (index == 2) { }
 
-                    if (index == 3) {}
+                    if (index == 3) { }
 
-                    if (index == 4) {}
+                    if (index == 4) { }
 
                     if (index == 5) {
                         go_next.addClass('opacity-zero');
@@ -351,7 +354,7 @@
                     }
                 },
 
-                onLeave: function(index, nextIndex, direction) {
+                onLeave: function (index, nextIndex, direction) {
                     desc_text.removeClass('decsription-short-text-active');
                     explore_block.css({
                         "transform": "translate3d(0px, 30px, 0px)",
@@ -371,7 +374,7 @@
 </head>
 
 <body>
-    
+
 
     <div class="overlay">
         <div id="preloader"></div>
@@ -393,42 +396,85 @@
         <div id="particles-js"></div>
 
         <li class="default open">
-            <div class="link home"><i class="fa fa-paint-brush"></i>Home<i class="fa fa-chevron-down"></i></div>
+            <div class="link home">
+                <i class="fa fa-paint-brush"></i>Home
+                <i class="fa fa-chevron-down"></i>
+            </div>
             <ul class="submenu">
-                <li data-menuanchor="about"><a href="#about">About</a></li>
-                <li data-menuanchor="culture"><a href="#culture">Culture</a></li>
-                <li data-menuanchor="vishen"><a href="#vishen">Vishen</a></li>
-                <li data-menuanchor="book"><a href="#book">The Book</a></li>
-                <li data-menuanchor="team"><a href="#team">The Team</a></li>
+                <li data-menuanchor="about">
+                    <a href="#about">About</a>
+                </li>
+                <li data-menuanchor="culture">
+                    <a href="#automation">Automation</a>
+                </li>
+                <li data-menuanchor="vishen">
+                    <a href="#services">Services</a>
+                </li>
+                <li data-menuanchor="book">
+                    <a href="#book">The Book</a>
+                </li>
+                <li data-menuanchor="team">
+                    <a href="#test">The Team</a>
+                </li>
             </ul>
         </li>
         <li>
-            <div class="link"><i class="fa fa-code"></i>Businesses<i class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <i class="fa fa-code"></i>Businesses
+                <i class="fa fa-chevron-down"></i>
+            </div>
             <ul class="submenu">
-                <li><a href="#">Mindvalley Academy</a></li>
-                <li><a href="#">Apps &amp; Platforms</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">International</a></li>
-                <li><a href="#" target="_blank">Evercoach</a></li>
+                <li>
+                    <a href="#">Mindvalley Academy</a>
+                </li>
+                <li>
+                    <a href="#">Apps &amp; Platforms</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">International</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Evercoach</a>
+                </li>
             </ul>
         </li>
         <li>
-            <div class="link"><i class="fa fa-globe"></i>News<i class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <i class="fa fa-globe"></i>News
+                <i class="fa fa-chevron-down"></i>
+            </div>
             <ul class="submenu">
-                <li><a href="#" target="_blank">Blog</a></li>
+                <li>
+                    <a href="#" target="_blank">Blog</a>
+                </li>
             </ul>
         </li>
         <li>
-            <div class="link"><i class="fa fa-globe"></i>Careers<i class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <i class="fa fa-globe"></i>Careers
+                <i class="fa fa-chevron-down"></i>
+            </div>
             <ul class="submenu">
-                <li><a href="#">Opportunities</a></li>
+                <li>
+                    <a href="#">Opportunities</a>
+                </li>
             </ul>
         </li>
         <li>
-            <div class="link"><i class="fa fa-globe"></i>Contact<i class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <i class="fa fa-globe"></i>Contact
+                <i class="fa fa-chevron-down"></i>
+            </div>
             <ul class="submenu">
-                <li><a href="#">Customer Support</a></li>
-                <li><a href="#">Affiliate Partnerships</a></li>
+                <li>
+                    <a href="#">Customer Support</a>
+                </li>
+                <li>
+                    <a href="#">Affiliate Partnerships</a>
+                </li>
             </ul>
         </li>
     </ul>
@@ -447,7 +493,7 @@
         </button>
     </div>
 
-    
+
 
     <div id="core">
 
@@ -498,14 +544,14 @@
 
         <div class="section">
 
-            <div class="section-img" id="culture-section"></div>
+            <div class="section-img culture1" id="culture-section"></div>
 
-            <h1>Concept to automation Automation,</h1>
+            <h1>Concept to Automation,</h1>
             <h2>We Develop Strategies</h2>
-            
+
 
             <div class="decsription-short-text">
-                <p>Our best products are our employees – discover how our multi award-winning company culture drives our productivity and our growth.
+                <p>Please add a tagline here so the theme looks consistent.
                 </p>
                 <ul class="social">
                     <li style="cursor:default">Follow Us:</li>
@@ -537,34 +583,13 @@
         </div>
 
         <div class="section">
-            
             <div class="wrapper">
-                <!-- Boxes Section -->
-                <section class="boxes">
-                    <div class="box">
-                        <i class="fas fa-chart-pie fa-4x"></i>
-                        <h3>Analytics</h3>
-                        <p>Lorem something htgisn skhdyt shd soid  sis dfgngt tlsjh sjth</p>
-                    </div>
-                    <div class="box">
-                        <i class="fas fa-globe fa-4x"></i>
-                        <h3>Marketing</h3>
-                        <p>Lorem something htgisn skhdyt shd soid  sis dfgngt tlsjh sjth</p>
-                    </div><div class="box">
-                        <i class="fas fa-cog fa-4x"></i>
-                        <h3>Development</h3>
-                        <p>Lorem something htgisn skhdyt shd soid  sis dfgngt tlsjh sjth</p>
-                    </div><div class="box">
-                        <i class="fas fa-users fa-4x"></i>
-                        <h3>Support</h3>
-                        <p>Lorem something htgisn skhdyt shd soid  sis dfgngt tlsjh sjth</p>
-                    </div>
-                </section>
+                <div class="box1">Box 1</div>
+                <div class="box2">Box 2</div>
+                <div class="box3">Box 3</div>
+                <div class="box4">Box 4</div>
+                <div class="box5">Box 5</div>
             </div>
-
-
-            
-
 
 
         </div>
@@ -616,7 +641,8 @@
             <h2>1 Mission</h2>
 
             <div class="decsription-short-text">
-                <p>Our unique recruitment policy has resulted in a diverse and international tribe, collectively dedicated to hacking education worldwide.
+                <p>Our unique recruitment policy has resulted in a diverse and international tribe, collectively dedicated to
+                    hacking education worldwide.
                 </p>
                 <ul class="social">
                     <li style="cursor:default">Follow Us:</li>
